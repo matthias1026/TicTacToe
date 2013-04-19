@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity" >
+
+    <View
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_weight=".2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+
+        <Button
+            android:id="@+id/t0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tileClicked"
+            android:tag="0"
+            android:text="@string/Button_button" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+
+        <Button
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tileClicked"
+            android:tag="1"
+            android:text="@string/Button_button" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+
+        <Button
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tileClicked"
+            android:tag="2"
+            android:text="@string/Button_button" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_weight=".1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+
+        <Button
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tileClicked"
+            android:tag="3"
+            android:text="@string/Button_button" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+
+        <Button
+            android:id="@+id/t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tileClicked"
+            android:tag="4"
+            android:text="@string/Button_button" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+
+        <Button
+            android:id="@+id/t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tileClicked"
+            android:tag="5"
+            android:text="@string/Button_button" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_weight=".1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+
+        <Button
+            android:id="@+id/t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tileClicked"
+            android:tag="6"
+            android:text="@string/Button_button" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+
+        <Button
+            android:id="@+id/t7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tileClicked"
+            android:tag="7"
+            android:text="@string/Button_button" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+
+        <Button
+            android:id="@+id/t8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="tileClicked"
+            android:tag="8"
+            android:text="@string/Button_button" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:layout_weight=".25" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:layout_weight=".8" />
+
+</LinearLayout>

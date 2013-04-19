@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TicTacToe</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Button_Play">Play!</string>
+    <string name="title_activity_select">SelectActivity</string>
+    <string name="Button_New">New Game</string>
+    <string name="Button_Load">Load Game</string>
+    <string name="Button_Exit">Exit</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="Button_button">Button</string>
+    <string name="Button_vs_CPU">Game X: You vs CPU</string>
+    <string name="Button_vs_guest">Game X: You vs Friend</string>
+    <string name="Button_A">OK</string>
+
+</resources>

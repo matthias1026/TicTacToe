@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SelectActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="0dp"
+        android:paddingTop="3dp" >
+
+        <Button
+            android:id="@+id/button_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight=".5"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:text="@string/Button_New"
+            android:tag="new" 
+            android:onClick="selectOpponent"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:text="@string/Button_vs_CPU" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:text="@string/Button_vs_guest" />
+
+</LinearLayout>
